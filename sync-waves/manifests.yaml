@@ -47,7 +47,7 @@ spec:
     spec:
       containers:
         - name: main
-          image: nginx:latest
+          image: hello-world:latest
 ---
 apiVersion: v1
 kind: Service
